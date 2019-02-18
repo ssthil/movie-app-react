@@ -1,69 +1,95 @@
 *:focus {
-  outline: none;
+    outline: none;
 }
-.hooq-header-bg{
-  background: #3c0134;
-  background-image: linear-gradient(#3c0134, #760477);
-  height: 180px;
+
+.hooq-header-bg {
+    background: #3c0134;
+    background-image: linear-gradient(#3c0134, #760477);
+    height: 180px;
 }
-.title{
-  text-align: center;
-  font-size: 24px;
-  text-transform: uppercase;
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
 }
 
 .container {
-  margin: 210px auto 0;
-}
-.margin-top-none{
-  margin-top: 0;
-}
-.card-title.pink-text {
-  color: #940981 !important;
-  font-size: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
+    margin: 210px auto 0;
 }
 
-.card-action.show-more a{
-  color: rgb(7, 112, 126) !important;
+.margin-top-none {
+    margin-top: 0;
+}
+
+.card-title.black-text {
+    color: #000;
+    padding: 0 0 0 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 40px;
+}
+.card-content {
+  line-height: 20px;
+  color: rgb(134, 7, 113) !important;
+  /* height: 40px; */
+}
+.card-content:focus {
+  outline: none;
+}
+
+.card-title.pink-text {
+    color: #940981 !important;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card-action.show-more a {
+    color: rgb(7, 112, 126) !important;
 }
 
 a.hooq-logo {
-  padding: 0px 10px;
-  float: left;
+    padding: 0px 10px;
+    float: left;
 }
+
 .top-menu {
-  display: block;
-  background: #380136;
-  height: 45px;
+    display: block;
+    background: #380136;
+    height: 45px;
 }
 
-.top-menu ul{
-  float: left;
-  line-height: 45px;
+.top-menu ul {
+    float: left;
+    line-height: 45px;
 }
 
-.dropdown-title{
-  color: #000;
-}
-.card-content.padding-left-right{
-  padding: 0 20px;
+.dropdown-title {
+    color: #000;
 }
 
-.card-content.padding-none{
-  padding: 0;
+.card-content.padding-left-right {
+    padding: 0 20px;
 }
 
-.card-content.padding-none > div > div{
-  border-radius: 0;
-  border-color: transparent;
+.card-content.padding-none {
+    padding: 0;
+}
+
+.card-content.padding-none>div>div {
+    border-radius: 0;
+    border-color: transparent;
+    background: transparent;
 }
 
 /** select */
+
 .custom-select {
-  line-height: 14px;
+    line-height: 14px;
 }
-.custom-select div{
-  border: 0 !important;
+
+.custom-select div {
+    border: 0 !important;
 }

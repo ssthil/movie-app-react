@@ -10,9 +10,9 @@ import {
 } from './config/api';
 
 /** components */
-import SelectDropdown from './SelectDropdown';
+import SelectDropdown from './components/SelectDropdown';
 import Header from './components/Header';
-import MovieList from './MovieList';
+import MovieList from './components/MovieList';
 import TopMenu from './components/TopMenu';
 import tvShowGenres from './config/genre.config';
 
